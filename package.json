@@ -1,0 +1,33 @@
+{
+  "name": "@farischt/prettier-config",
+  "version": "1.0.0",
+  "description": "Farischt's shareable Prettier configuration",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/farischt/prettier-config.git"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "prettier",
+    "prettierconfig"
+  ],
+  "author": "Faris CHTATOU <faris.manage@gmail.com> (https://www.faris.chtatou.org)",
+  "license": "ISC",
+  "scripts": {
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix .",
+    "format": "prettier --write ."
+  },
+  "devDependencies": {
+    "@farischt/prettier-config": "*",
+    "@farischt/eslint-config": "*",
+    "eslint": "^8.56.0",
+    "prettier": "^3.2.4"
+  },
+  "peerDependencies": {
+    "prettier": ">= 3"
+  }
+}
