@@ -5,7 +5,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Farischt/prettier-config.git"
+    "url": "git+https://github.com/farischt/prettier-config.git"
   },
   "files": [
     "index.js"
@@ -28,6 +28,7 @@
     "prettier": "^3.2.4"
   },
   "peerDependencies": {
-    "prettier": ">= 3"
+    "prettier": ">= 3",
+    "prettier-plugin-tailwindcss": ">=0.5"
   }
 }
