@@ -1,6 +1,6 @@
 {
   "name": "@farischt/prettier-config",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Farischt's shareable Prettier configuration",
   "main": "index.js",
   "repository": {
